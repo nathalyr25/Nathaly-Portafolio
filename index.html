@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Nathaly Rios</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Quicksand:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-icon">NR</span>
+            <span class="logo-text">Nathaly Rios</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" class="tab-link active">Sobre mí</a></li>
+                <li><a href="#projects" class="tab-link">Proyectos</a></li>
+                <li><a href="#skills" class="tab-link">Habilidades</a></li>
+                <li><a href="#contact" class="tab-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="tab-section active">
+            <div class="section-flex">
+                <div class="section-img">
+                    <div class="logo-avatar">
+                        <span class="logo-icon large">NR</span>
+                    </div>
+                </div>
+                <div class="section-text">
+                    <h2>¡Hola! Soy Nathaly Rios</h2>
+                    <p>Soy una persona proactiva, puntual y empática, apasionada por el desarrollo y la innovación. Me encanta trabajar en equipo y enfrentar nuevos retos.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/n3ty25" target="_blank" class="social-icon">Instagram</a>
+                        <a href="https://tiktok.com/@nathalyyy" target="_blank" class="social-icon">TikTok</a>
+                        <a href="https://facebook.com/nathaly.rios" target="_blank" class="social-icon">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="tab-section">
+            <h2>Proyectos Destacados</h2>
+            <div class="productos-grid">
+                <div class="producto-card">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Proyecto 1" />
+                    <h3>Mi Web Personal</h3>
+                    <p>Portafolio moderno y responsive para mostrar mis trabajos y habilidades.</p>
+                    <a href="#" class="btn-demo" target="_blank">Ver demo</a>
+                </div>
+                <div class="producto-card">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Proyecto 2" />
+                    <h3>App de Tareas</h3>
+                    <p>Aplicación web para organizar tareas diarias, con autenticación y filtros.</p>
+                    <a href="#" class="btn-demo" target="_blank">Ver demo</a>
+                </div>
+                <div class="producto-card">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Proyecto 3" />
+                    <h3>Landing Page Creativa</h3>
+                    <p>Landing page para promoción de servicios, con animaciones y diseño atractivo.</p>
+                    <a href="#" class="btn-demo" target="_blank">Ver demo</a>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="tab-section">
+            <h2>Habilidades</h2>
+            <div class="skills-list">
+                <div class="skill-item"><span>HTML5</span><div class="skill-bar"><div class="bar" style="width: 90%"></div></div></div>
+                <div class="skill-item"><span>CSS3</span><div class="skill-bar"><div class="bar" style="width: 85%"></div></div></div>
+                <div class="skill-item"><span>JavaScript</span><div class="skill-bar"><div class="bar" style="width: 80%"></div></div></div>
+                <div class="skill-item"><span>React</span><div class="skill-bar"><div class="bar" style="width: 70%"></div></div></div>
+                <div class="skill-item"><span>Trabajo en equipo</span><div class="skill-bar"><div class="bar" style="width: 95%"></div></div></div>
+                <div class="skill-item"><span>Proactividad</span><div class="skill-bar"><div class="bar" style="width: 95%"></div></div></div>
+                <div class="skill-item"><span>Puntualidad</span><div class="skill-bar"><div class="bar" style="width: 95%"></div></div></div>
+                <div class="skill-item"><span>Empatía</span><div class="skill-bar"><div class="bar" style="width: 95%"></div></div></div>
+            </div>
+        </section>
+        <section id="contact" class="tab-section">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre" required />
+                <input type="email" placeholder="Correo electrónico" required />
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p>O escríbeme a: <a href="mailto:nathalyrios@email.com">nathalyrios@email.com</a></p>
+                <p>WhatsApp: <a href="https://wa.me/56966974157" target="_blank">+56 9 6697 4157</a></p>
+            </div>
+            <div id="chatbot-container">
+                <div id="chatbot">
+                    <div id="chatbot-messages">
+                        <div class="bot-message">¡Hola! Si no puedo responderte ahora, puedes dejarme un mensaje y lo recibiré en mi correo.</div>
+                    </div>
+                    <form id="chatbot-form">
+                        <input type="text" id="chatbot-name" placeholder="Tu nombre" required />
+                        <input type="email" id="chatbot-email" placeholder="Tu correo" required />
+                        <textarea id="chatbot-msg" placeholder="¿En qué puedo ayudarte?" required></textarea>
+                        <button type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nathaly Rios. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
